@@ -1,0 +1,16 @@
+section .meals {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meals-sec {
+  display: flex;
+  padding: 20px 0;
+  width: 350px;
+  justify-content: space-between;
+}
+
+.meals label {
+  padding: 0 10px;
+}

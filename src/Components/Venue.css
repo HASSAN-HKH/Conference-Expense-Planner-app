@@ -1,0 +1,62 @@
+.room img {
+  width: 100%;
+}
+
+:root {
+  scroll-behavior: smooth;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+}
+
+section h3 {
+  padding: 20px;
+  width: 50%;
+  margin: 0 auto 20px;
+  text-align: center;
+  font-size: 25px;
+  background-color: #233e77;
+  color: white;
+}
+
+.rooms {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.room {
+  flex-basis: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.controls span {
+  margin: 0 20px;
+}
+
+.controls button {
+  padding: 0 10px;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.controls button:first-child {
+  background-color: #f90303;
+}
+
+.controls button:last-child {
+  background-color: #233e77;
+}
+
+.total {
+  width: 200px;
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px 0;
+  background-color: #233e77;
+  color: white;
+}
