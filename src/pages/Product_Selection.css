@@ -102,6 +102,10 @@ header button {
   padding: 10px 20px;
 }
 
+header h2 {
+  cursor: pointer;
+}
+
 /* ul li {
   margin: 0 30px;
 } */

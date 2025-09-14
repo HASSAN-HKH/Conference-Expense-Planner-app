@@ -4,8 +4,11 @@ import Venue from "../Components/VenueSection";
 import AddOn from "../Components/AddOn";
 import Meals from "../Components/Meals";
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 function Product_Selection() {
+  const navigate = useNavigate();
+
   const roomItems = useSelector((state) => state.Details.items);
   const mealItems = useSelector((state) => state.Meals.items);
 
@@ -62,7 +65,9 @@ function Product_Selection() {
           </table>
         </div>
         <header>
-          <h2>Conference Expense Planner</h2>
+          <h2 onClick={() => navigate("/Conference-Expense-Planner-app/")}>
+            Conference Expense Planner
+          </h2>
           <nav>
             <ul>
               <li>
