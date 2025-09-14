@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Venue.css";
 import { useSelector, useDispatch } from "react-redux";
 import { increaseQuantity, decreaseQuantity } from "./Details";
-import test from "/images/business-20031_1280.jpg";
 
 function Venue() {
   const dispatch = useDispatch();
@@ -28,7 +27,7 @@ function Venue() {
       name: "Conference Room (Capacity:15)",
       price: 1500,
       quantity: 0,
-      imgPath: test,
+      imgPath: "/images/chairs-2181916_1280 (1).jpg",
     },
     {
       id: 2,
