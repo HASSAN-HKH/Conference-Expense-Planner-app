@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Venue.css";
 import { useSelector, useDispatch } from "react-redux";
 import { increaseQuantity, decreaseQuantity } from "./Details";
+import test from "/images/business-20031_1280.jpg";
 
 function Venue() {
   const dispatch = useDispatch();
@@ -27,39 +28,35 @@ function Venue() {
       name: "Conference Room (Capacity:15)",
       price: 1500,
       quantity: 0,
-      imgPath: `${import.meta.env.BASE_URL}images/chairs-2181916_1280 (1).jpg`,
+      imgPath: test,
     },
     {
       id: 2,
       name: "Auditorium Hall (Capacity:200)",
       price: 5500,
       quantity: 0,
-      imgPath: `${
-        import.meta.env.BASE_URL
-      }images/international-conference-1597531_1280.jpg`,
+      imgPath: "/images/international-conference-1597531_1280.jpg",
     },
     {
       id: 3,
       name: "Presentation Room (Capacity:50)",
       price: 3500,
       quantity: 0,
-      imgPath: `${
-        import.meta.env.BASE_URL
-      }images/convention-center-3908238_1280.jpg`,
+      imgPath: "/images/convention-center-3908238_1280.jpg",
     },
     {
       id: 4,
       name: "Large Meeting Room (Capacity:10)",
       price: 1000,
       quantity: 0,
-      imgPath: `${import.meta.env.BASE_URL}images/chairs-2181916_1280.jpg`,
+      imgPath: "/images/chairs-2181916_1280.jpg",
     },
     {
       id: 5,
       name: "Small Meeting Room (Capacity:5)",
       price: 800,
       quantity: 0,
-      imgPath: `${import.meta.env.BASE_URL}images/laptops-593296_1280.jpg`,
+      imgPath: "/images/laptops-593296_1280.jpg",
     },
   ];
 
