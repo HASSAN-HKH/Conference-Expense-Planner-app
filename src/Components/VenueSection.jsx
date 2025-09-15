@@ -27,35 +27,38 @@ function Venue() {
       name: "Conference Room (Capacity:15)",
       price: 1500,
       quantity: 0,
-      imgPath: "/images/chairs-2181916_1280 (1).jpg",
+      imgPath:
+        "/Conference-Expense-Planner-app/images/chairs-2181916_1280 (1).jpg",
     },
     {
       id: 2,
       name: "Auditorium Hall (Capacity:200)",
       price: 5500,
       quantity: 0,
-      imgPath: "/images/international-conference-1597531_1280.jpg",
+      imgPath:
+        "/Conference-Expense-Planner-app/images/international-conference-1597531_1280.jpg",
     },
     {
       id: 3,
       name: "Presentation Room (Capacity:50)",
       price: 3500,
       quantity: 0,
-      imgPath: "/images/convention-center-3908238_1280.jpg",
+      imgPath:
+        "/Conference-Expense-Planner-app/images/convention-center-3908238_1280.jpg",
     },
     {
       id: 4,
       name: "Large Meeting Room (Capacity:10)",
       price: 1000,
       quantity: 0,
-      imgPath: "/images/chairs-2181916_1280.jpg",
+      imgPath: "/Conference-Expense-Planner-app/images/chairs-2181916_1280.jpg",
     },
     {
       id: 5,
       name: "Small Meeting Room (Capacity:5)",
       price: 800,
       quantity: 0,
-      imgPath: "/images/laptops-593296_1280.jpg",
+      imgPath: "/Conference-Expense-Planner-app/images/laptops-593296_1280.jpg",
     },
   ];
 
