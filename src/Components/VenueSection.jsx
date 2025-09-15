@@ -51,7 +51,7 @@ function Venue() {
       name: "Large Meeting Room (Capacity:10)",
       price: 1000,
       quantity: 0,
-      imgPath: "/Conference-Expense-Planner-app/images/chairs-2181916_1280.jpg",
+      imgPath: "/images/chairs-2181916_1280.jpg",
     },
     {
       id: 5,
