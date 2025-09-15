@@ -18,7 +18,7 @@ function AddOn() {
 
   function handleDecrement(item) {
     dispatch(decreaseQuantity(item));
-  } 
+  }
 
   const addOns = [
     {
@@ -26,35 +26,39 @@ function AddOn() {
       name: "Projectors",
       price: 200,
       quantity: 0,
-      imgPath: "/images/business-20031_1280.jpg",
+      imgPath: "/Conference-Expense-Planner-app/images/business-20031_1280.jpg",
     },
     {
       id: 7,
       name: "Speaker",
       price: 35,
       quantity: 0,
-      imgPath: "/images/speakers-4109274_1280.jpg",
+      imgPath:
+        "/Conference-Expense-Planner-app/images/speakers-4109274_1280.jpg",
     },
     {
       id: 8,
       name: "Microphones",
       price: 45,
       quantity: 0,
-      imgPath: "/images/public-speaking-3926344_1280.jpg",
+      imgPath:
+        "/Conference-Expense-Planner-app/images/public-speaking-3926344_1280.jpg",
     },
     {
       id: 9,
       name: "Whiteboards",
       price: 80,
       quantity: 0,
-      imgPath: "/images/whiteboard-2903269_1280.webp",
+      imgPath:
+        "/Conference-Expense-Planner-app/images/whiteboard-2903269_1280.webp",
     },
     {
       id: 10,
       name: "Signage",
       price: 80,
       quantity: 0,
-      imgPath: "/images/directory-235079_1280.jpg",
+      imgPath:
+        "/Conference-Expense-Planner-app/images/directory-235079_1280.jpg",
     },
   ];
 
