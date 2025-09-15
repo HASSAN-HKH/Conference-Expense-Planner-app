@@ -18,7 +18,7 @@ function AddOn() {
 
   function handleDecrement(item) {
     dispatch(decreaseQuantity(item));
-  }
+  } 
 
   const addOns = [
     {
