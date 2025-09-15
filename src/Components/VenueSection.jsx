@@ -28,7 +28,7 @@ function Venue() {
       price: 1500,
       quantity: 0,
       imgPath:
-        "/Conference-Expense-Planner-app/images/chairs-2181916_1280 (1).jpg",
+        "/Conference-Expense-Planner-app/images/international-conference-1597531_1280.jpg",
     },
     {
       id: 2,
